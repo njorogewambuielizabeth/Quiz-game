@@ -1,4 +1,4 @@
-// Define quiz questions and answer options
+// quiz questions and answer options
 const quiz = [
   {
     question: "What is the capital of France?",
@@ -41,7 +41,7 @@ const submitBtn = document.getElementById("submit-btn");
 const restartBtn = document.getElementById("restart-btn");
 
 let currentQuestionIndex = 0; // Keep track of the current question
-let score = 0; // Initialize the score to zero
+let score = 0; 
 
 // Display the current question and answer options
 function displayQuestion() {
@@ -73,7 +73,7 @@ function checkAnswer() {
   } else {
     score--;
   }
-  scoreEl.textContent = score; // Update the score on the page
+  scoreEl.textContent = score; // Updates the score on the page
   selectedOption.checked = false; // Clear the selected option
 }
 
