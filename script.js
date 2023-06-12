@@ -6,6 +6,21 @@ const quiz = [
     answer: "Paris"
   },
   {
+    question: "Which is not a fruit?",
+    options: ["Berries", "Potatoe", "Melon", "Banana"],
+    answer: "Potatoe"
+  },
+  {
+    question: "Which is not a rainbow color?",
+    options: ["Violet", "Indigo", "Purple", "Pink"],
+    answer: "Pink"
+  },
+  {
+    question: "Who is the current president of Kenya?",
+    options: ["Raila", "Ruto", "Uhuru", "Kalonzo"],
+    answer: "Ruto"
+  },
+  {
     question: "What is the largest country in the world?",
     options: ["USA", "China", "Russia", "India"],
     answer: "Russia"
